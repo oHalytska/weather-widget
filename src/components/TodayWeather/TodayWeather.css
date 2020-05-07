@@ -1,0 +1,47 @@
+.main-info {
+  margin-left: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.titles {
+  margin-top: 100px;
+
+  color: #0b3565;
+}
+
+.current-weather {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-end;
+  max-height: 365px;
+}
+
+.current-weather__temperature {
+  font-size: 304px;
+  color: #647486;
+}
+
+.current-weather__status {
+  font-size: 64px;
+  color: #647486;
+  margin-bottom: 50px;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  max-width: 420px;
+}
+
+.city-title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.date-title {
+  font-size: 32px;
+}
