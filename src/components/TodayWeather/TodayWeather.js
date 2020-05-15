@@ -6,7 +6,7 @@ const TodayWeather = () => {
     <div className="main-info">
       <div className="titles">
         <p className="city-title">Tallinn, Estonia</p>
-        <p className='date-title'>May 5</p>
+        <p className="date-title">May 5</p>
       </div>
       <div className="current-weather">
         <div className="current-weather__temperature">10°</div>
