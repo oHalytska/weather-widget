@@ -1,0 +1,32 @@
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-city {
+  font-size: 14px;
+  color: #c8d0d9;
+  border-style: none;
+  border-bottom: 2px solid #d9e5f3;
+}
+
+.input-city:focus {
+  border-bottom: 2px solid #4f9bec;
+}
+
+.btn-show {
+  margin-left: 44px;
+  cursor: pointer;
+  border-style: none;
+  padding: 5px 20px;
+  color: #647486;
+  background-color: white;
+  border: 1px solid #4f9bec;
+  box-sizing: border-box;
+}
+
+.btn-show:hover {
+  color: white;
+  background-color: #4f9bec;
+}

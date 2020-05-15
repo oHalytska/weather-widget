@@ -1,8 +1,9 @@
 import React from 'react';
+import './Form.css';
 
 const Form = () => {
   return (
-    <form>
+    <form className="form-container">
       <input
         className="input-city"
         type="text"
